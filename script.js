@@ -1,0 +1,1 @@
+document.querySelectorAll('.topics button').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('.topics button').forEach(b=>b.style.fontWeight='normal');button.style.fontWeight='bold';}));
